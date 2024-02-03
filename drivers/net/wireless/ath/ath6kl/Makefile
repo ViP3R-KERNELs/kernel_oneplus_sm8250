@@ -1,3 +1,4 @@
+ccflags-y := -Werror $(call cc-disable-warning, parentheses-equality )
 #------------------------------------------------------------------------------
 # Copyright (c) 2004-2011 Atheros Communications Inc.
 # Copyright (c) 2011-2012 Qualcomm Atheros, Inc.
