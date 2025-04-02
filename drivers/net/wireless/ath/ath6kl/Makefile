@@ -21,6 +21,7 @@
 #
 # Author(s): ="Atheros"
 #------------------------------------------------------------------------------
+EXTRA_CFLAGS += -Wno-parentheses-equality
 
 obj-$(CONFIG_ATH6KL) += ath6kl_core.o
 ath6kl_core-y += debug.o
